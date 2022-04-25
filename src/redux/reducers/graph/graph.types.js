@@ -1,0 +1,2 @@
+export const SET_NETWORK_GRAPH = "SET_NETWORK_GRAPH"
+export const SET_CHAIN_INFO = "SET_CHAIN_INFO"

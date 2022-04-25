@@ -1,0 +1,3 @@
+export const SET_ORIGIN_APP = "SET_ORIGIN_APP"
+export const SET_ORIGIN_APP_ID = "SET_ORIGIN_APP_ID"
+export const SET_ORIGIN_APP_TYPE = "SET_ORIGIN_APP_TYPE"

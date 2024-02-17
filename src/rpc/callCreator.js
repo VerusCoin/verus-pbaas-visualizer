@@ -56,7 +56,7 @@ export const apiGet = (callPath, params) => {
     }
 
     fetch(
-      `http://127.0.0.1:${port}/api/${callPath}${urlParams(urlParamsObj)}`,
+      `http://localhost:${port}/api/${callPath}${urlParams(urlParamsObj)}`,
       fetchType.get
     )
     .then(response => {
@@ -94,7 +94,7 @@ export const apiPost = async (callPath, params, forceEncryption) => {
     const token = hash
 
     fetch(
-      `http://127.0.0.1:${port}/api/${callPath}`,
+      `http://localhost:${port}/api/${callPath}`,
       fetchType(
         JSON.stringify({
           validity_key: token,
